@@ -1,0 +1,83 @@
+@media screen and (max-width: 1200px) {
+    .message {
+        flex-direction: column;
+        flex-wrap: wrap-reverse;
+        margin: 0 auto;
+        background-color: aqua;
+        align-items:stretch;
+      
+    }
+
+    .messageForm {
+        margin: 0 auto;
+        background-color: blanchedalmond;
+    }
+
+    .messageForm input {
+        width: 100%;   
+        margin: 0 auto;   
+        
+    }
+
+   
+   
+   }
+@media screen and (max-width: 1200px) {
+    .message img {
+        max-width: 350px;
+        margin: .9em;
+        background-color: burlywood;
+    }
+}
+
+.message {
+    display: flex;
+    flex-direction: row;
+    width: 75%;
+    justify-content: space-between;
+    margin: 0 auto;
+    align-items: center;
+}
+
+.message img {
+    width: 450px;
+}
+
+.messageForm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 45%;
+    line-height: 1.4em;
+    font-size: 1.4em;
+    margin-top: 3em;
+}
+
+.messageForm input {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    border-radius: 5px;
+    border: none;
+    padding: .7em;
+}
+
+.messageForm .commentary {
+    height: 120px; 
+text-align: left;}
+
+::-webkit-input-placeholder {
+    font-size: 1.1em;
+    color: rgb(77, 2, 216);
+}
+
+ :-ms-input-placeholder {
+     color: rgb(77, 2, 216);
+ }
+
+ ::-moz-placeholder {
+     color: rgb(77, 2, 216);
+ }
+
+ ::placeholder {
+     color: rgb(77, 2, 216);
+ }

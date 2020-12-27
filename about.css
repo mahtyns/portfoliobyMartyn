@@ -1,0 +1,52 @@
+ @media screen and (max-width: 900px) {
+   
+    .aboutContainer {
+       margin-left: 50%;
+       margin-right: 50%;
+        width: 50%;
+       flex-wrap: wrap-reverse;
+          }
+   
+    .aboutPhoto img {
+       max-width: 250px;
+       max-height: 250px;
+   }
+
+   .aboutDescription{
+       width: 25%;
+   }
+ }
+
+.aboutMe {
+    width: 100%;
+    background: linear-gradient(60deg, rgb(77, 2, 216), rgb(224, 61, 197));
+    padding-bottom: 5em;
+    box-sizing: border-box;
+    color: white;
+}
+
+.aboutContainer {
+    width: 75%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 6em;
+}
+
+.aboutDescription {
+    width: 45%;
+   
+    font-size: 1.4em;
+    margin: .9em;
+    margin-top: 4em;
+    box-sizing: border-box;
+    line-height: 1.6em;
+    
+}
+
+.aboutPhoto img{
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+}
