@@ -42,6 +42,11 @@
             width: 100%;
             grid-gap: .6em;
         }
+        .projectGridOthers.projectContainer {
+            width: 150px;
+            height: 150px;
+            
+        }
    }
 
    .projectGridShort {

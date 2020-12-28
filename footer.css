@@ -29,3 +29,12 @@
     max-width: 25px;
     filter: invert(1);
 }
+
+.myFooter a {
+ text-decoration: none;
+    color: rgb(77, 2, 216);
+}
+.myFooter a:visited {
+    color: rgb(77, 2, 216);
+    text-decoration: none;
+}

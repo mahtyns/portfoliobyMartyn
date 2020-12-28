@@ -1,8 +1,13 @@
  @media screen and (max-width: 900px) {
-     .presentText h1 {
+          .presentText {
+         position: relative;
+         left: 50px;
+         top: 80px;
+     }
+     h1 {
          font-size: 2em;
      }
-     .presentText h2 {
+      h2 {
          font-size: 1.6em;
      }
  }
@@ -13,30 +18,47 @@
 }
 
 .presentation {
-    background: linear-gradient(60deg, rgb(77, 2, 216),rgb(255, 50, 111));
+    background: linear-gradient(60deg, #5f69e3, #fd2364);
     width: 100%;
     color: whitesmoke;
     height: fit-content;
     padding-bottom: 5em;
     min-height: 45em;
+    border-radius: 0 0 250px 0;
+    box-shadow: 12px 12px 30px  rgba(77, 2, 216, 0.3);
+    margin-top: 3em;
      
 }
 
-h1 {
+.presentText h1 {
     font-size: 3.5em;
-    }
+    margin-top: .7em;
+    margin-bottom: .7em;
+    text-shadow: 2px 2px 0px rgba(11, 0, 31, 0.801);
+    letter-spacing: 9px; }
 
-h2 {
-    
-font-size: 2.5em;}
+.presentText h2 {     
+font-size: 2em;
+margin-top: 0.1em;
+    text-shadow: 2px 2px 0px rgba(11, 0, 31, 0.801);
+
+}
+
+.presentText h3 {
+font-size: 1.5em;
+margin-top: 1em;
+    text-shadow: 2px 2px 0px rgba(11, 0, 31, 0.801);
+
+}
 
 .presentText {
     margin-left: 3em;
-    margin-top: 2em;
 
     box-sizing: border-box;
         position: relative;
-        top: 2em;
+        top: 90px;
+        left: 150px;
+        
     
 }
 .projectsButton {
@@ -77,8 +99,9 @@ font-size: 2.5em;}
 #aboutShort {
     font-size: 1.2em;
     margin: .9em;
-    margin-top: 4em;
+    margin-top: 10em;
     width: 45%;
     line-height: 1.6em;
-    margin-left: 3em;
+    margin-left: 150px;
+    margin-bottom: 10em;
 }

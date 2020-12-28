@@ -81,3 +81,25 @@ text-align: left;}
  ::placeholder {
      color: rgb(77, 2, 216);
  }
+
+ .messageButton {
+     padding: 15px 25px;
+     background-color: white;
+     width: 250px;
+     margin: 0 auto;
+     border-radius: 25px;
+     text-align: center;
+     box-sizing: border-box;
+     color: #1B1C1E;
+     font-size: 1.2em;
+     box-shadow: 2px 2px 15px whitesmoke;
+     cursor: crosshair;
+ }
+
+ .messageButton:hover {
+     color: whitesmoke;
+     -webkit-animation:rainbow 6s infinite ease-in-out;
+     -ms-animation:rainbow 6s infinite ease-in-out;
+     -o-animation:rainbow 6s infinite ease-in-out;
+     animation:rainbow 6s infinite ease-in-out;
+ }
