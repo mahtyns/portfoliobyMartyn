@@ -18,7 +18,8 @@
 }
 
 .presentation {
-    background: linear-gradient(60deg, #5f69e3, #fd2364);
+    background: url("banner.png") no-repeat top left, linear-gradient(60deg, #5f69e3, #fd2364) ;
+    background-size: cover;
     width: 100%;
     color: whitesmoke;
     height: fit-content;
@@ -29,6 +30,8 @@
     margin-top: 3em;
      
 }
+
+
 
 .presentText h1 {
     font-size: 3.5em;
@@ -97,11 +100,30 @@ margin-top: 1em;
 }
 
 #aboutShort {
-    font-size: 1.2em;
+    
     margin: .9em;
     margin-top: 10em;
-    width: 45%;
-    line-height: 1.6em;
-    margin-left: 150px;
+    
+    
     margin-bottom: 10em;
+}
+
+.aboutShortContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    width: 90%;
+    margin: 50px auto;
+    font-size: 1.2em;
+    line-height: 1.6em;
+    
+    
+}
+
+.aboutText {
+    width: 45%;
+}
+
+.aboutShortImage img {
+   width: 450px;
 }
